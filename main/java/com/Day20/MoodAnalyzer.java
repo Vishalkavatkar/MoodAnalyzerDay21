@@ -8,7 +8,7 @@ package com.Day20;
 public class MoodAnalyzer {
 	/**
 	 * This method will compute if the mood is happy or sad.
-	 * 1. We will convert the message to lower case and check it the string contains happy or sad word in it.
+	 * We will convert the message to lower case and check it the string contains happy or sad word in it.
 	 * Accordingly we will return Happy or Sad mood.
 	 * @param message -  We will pass the string message from the main method.
 	 * @return - We will return the mood Happy or Sad 
@@ -17,9 +17,11 @@ public class MoodAnalyzer {
 		if (message.toLowerCase().contains("happy")) {
 			return "HAPPY";
 		} else if (message.toLowerCase().contains("sad")) {
-			return "SAD";
-		} else {
-			return null;
+            return "SAD";
+        } else if (message.toLowerCase().contains("any")) {
+            return "HAPPY";
+        } else {
+            return null;
 		}
 	}
 }
