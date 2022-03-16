@@ -2,8 +2,7 @@ package com.Day20;
 
 /**
  * We have created this class to check the mood according to the input string.
- * We have created a method analyseMood that will take a string input and return the mood accordingly.
- * @author Tom
+ * We have created a method analyseMood that will take a string input and return the mood accordingly
  *
  */
 public class MoodAnalyzer {
